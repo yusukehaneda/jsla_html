@@ -1,6 +1,19 @@
 <html>
 <head>
 <style type="text/css">
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Arial, Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "MS P Gothic", "ＭＳ Ｐゴシック", sans-serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .box1 {
     /* background-color: blue; */
     padding: 10px 5px;
@@ -8,23 +21,28 @@
     font-weight: bold;
     border: solid 5px #DDDDDD;
 }
-.box1 p {
-    font-size:12px;
-    font-family: :sans-serif;
-    margin: 0;
-    padding: 0;
+li {
+    list-style-type: none;
+}
+.box1 ul {
+    padding: 15px;
+}
+.box1 ul a {
+    color: #1c5bb8;
+    text-decoration: underline;
+    display: inline;
+    font-size: 13px !important;
+    padding-left: 12px;
+    background: url(http://jslaimage.starfree.jp/img/icon_arrow_pic.png) left 7px no-repeat;
 }
 .box2 {
-    padding: 5px 5px;
-    margin: 0px 0px -20px 0;
+    font-size: 13px;
     color: #FE6601;
+    font-weight: bold;
+    border-bottom: 2px solid #c6d9e8;
+    padding-bottom: 6px;
 }
-.box2 p {
-    font-size:15px;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
+
 .box3 {
     /* background-color: blue; */
     padding: 0.5em 1em;
@@ -54,36 +72,59 @@
 </style>
 </head>
 <body>
+<!-- 今後の行事予定ここから -->
   <div class="box1">
     <div class="box2">
         <p>J-SLAの最新イベント</p>
     </div>
-　 <hr>
-    <ul>
+<!-- 区切り -->
+  <ul>
       <li>
-       <p>今後の行事予定</p>
+       <a title="今後の行事予定" href="">今後の行事予定</a>
      </li>
-     <li><p>第20回 日本第二言語習得学会 国際年次大会（J-SLA2020）設立20周年記念大会</p></li>
-     <li><p>2019年J-SLA秋の研修会 [2019年10月27日 日本大学商学部砧キャンパス ]</p></li>
+  </ul>
+  <!-- 区切り -->
+  <ul>
+     <li>
+       <a title="第20回　日本第二言語習得学会　国際年次大会（J-SLA2020）設立20周年記念大会" href="">
+第20回　日本第二言語習得学会　国際年次大会（J-SLA2020）設立20周年記念大会</a>
+     </li>
+  </ul>
+  <!-- 区切り -->
+  <ul>
+     <li>
+       <a title="2019年J-SLA秋の研修会 [2019年10月27日 日本大学商学部砧キャンパス]" href="">2019年J-SLA秋の研修会 [2019年10月27日 日本大学商学部砧キャンパス]</a>
+     </li>
    </ul>
+   <!-- 区切り -->
   </div>
   <br>
+<!-- 今後の行事予定ここまで -->
+
+<!-- J-SLA 学会誌ここから -->
   <div class="box1">
     <div class="box2">
         <p>J-SLA 学会誌</p>
     </div>
-　 <hr>
+<!-- 区切り -->
     <ul>
       <li>
-       <p>Second Language 既刊論文</p>
+        <a title="Second Language 既刊論文" href="">
+ Second Language 既刊論文</a>
      </li>
    </ul>
+ <!-- 区切り -->
   </div>
+  <!-- J-SLA 学会誌ここまで -->
+
+<!-- 事務局ここから -->
   <div class="box3">
     <div class="box4">
         <p>事 務 局</p>
     </div>
     <p>〒157-8570<br>東京都世田谷区砧5-2-1<br>TEL: 03-3749-6838<br><br>日本大学商学部<br>小川睦美研究室内<br>日本第二言語習得学会事務局<br>swkbys37[at]tamacc.chuo-u.ac.jp</p>
 </div>
+<!-- 事務局ここまで -->
+
 </body>
 </html>
