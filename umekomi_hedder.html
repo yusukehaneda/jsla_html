@@ -53,18 +53,12 @@
   margin: 30px 10 10 10px;
 }
 .lang_parts p{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: gray;
   margin: 25px 10 10 5px;
 }
 
-.headder_bottom {
-  height: 270px;
-  clear: left;
-}
-.topimg{
-  width: 1100px;
-  height: auto;
-  clear: left;
-}
 
 /* デフォルト：980px以上用（PC用）の記述 */
 @media screen and (max-width: 940px) {
@@ -83,14 +77,7 @@
     display: none;
     /* float:none; */
   }
-  .topimg{
-    margin-top: 10px;
-    width: 900px;
-    height: auto;
-  }
-  .headder_bottom {
-    height: 250px;
-  }
+
 }
 
 
@@ -104,49 +91,47 @@
   .hedder_parts{
     height: 50px;
   }
-  .topimg{
-    width: 760px;
-    height: auto;
-  }
-
-  .lang{
-    display: none;
-  }
   #___gcse_0 {
     display: none;
-    /* float:none; */
   }
-  .headder_bottom {
-    height: 200px;
-  }
+
 
 }
 
-@media screen and (max-width: 502px) {
+@media screen and (max-width: 602px) {
 /* 479px以下用（スマートフォン用）の記述 */
 
   .hedder_top{
     width: 500px;
-    height: 30px;
+    height: 20px;
+    padding: 0px;
   }
   .hedder_top_img {
-    width: 80px;
-    height: 30px;
+    width: 70px;
+    height: 20px;
+    margin: 0px;
     padding: 0px 0px;
   }
   .hedder_top_img img{
-    width: 80px;
-    height: 30px;
+    width: 60px;
+    height: 18px;
   }
   .hedder_logs p{
-    font-size: 14px;
-    margin: 10 0 0 15;
+    font-size: 12px;
+    margin: 0 0 0 15px;
   }
   .hedder_parts{
-    height: 0px;
+    width: 250px;
+    height: 20px;
+    padding: 0px;
   }
-  .lang{
-    display: none;
+
+  .lang_parts img{
+    margin: 4px 5px 0px 100px;
+  }
+  .lang_parts p{
+    font-size: 10px;
+    margin: 3px 5px 0 5px;
   }
 
   #___gcse_0 {
@@ -154,15 +139,6 @@
     /* float:none; */
   }
 
-  .topimg{
-    margin-bottom: 10px;
-    width: 440px;
-    height: 90px;
-    text-align: center;
-  }
-  .headder_bottom {
-    height: 150px;
-  }
 }
 </style>
 </head>
@@ -181,12 +157,6 @@
     <div class="hedder_parts">
       <div class="lang">
           <div class="lang_parts">
-              <img src="http://jslaimage.starfree.jp/img/jp.png">
-          </div>
-          <div class="lang_parts">
-              <p>日本語</p>
-          </div>
-          <div class="lang_parts">
               <img src="http://jslaimage.starfree.jp/img/uk.png">
           </div>
           <div class="lang_parts">
@@ -200,8 +170,5 @@
     </div>
   </div>
 
-  <div class="headder_bottom">
-      <img src="http://jslaimage.starfree.jp/img/top_img.jpg" class="topimg">
-  </div>
 </body>
 </html>
